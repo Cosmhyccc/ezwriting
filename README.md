@@ -1,6 +1,7 @@
 # ez writing
 
 A minimalistic free writing application with a clean interface.
+https://cosmhyccc.github.io/ezwriting/
 
 ## Features
 
