@@ -1,6 +1,6 @@
-# Minimal Writer
+# ez writing
 
-A minimalistic free writing text web application with a clean, elegant interface.
+A minimalistic free writing application with a clean interface.
 
 ## Features
 
@@ -17,7 +17,6 @@ A minimalistic free writing text web application with a clean, elegant interface
 2. Start typing immediately
 3. Use the toolbar to:
    - Upload images
-   - Toggle dark/light mode
    - Download your work as PDF
 
 ## Technologies
