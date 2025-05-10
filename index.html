@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimal Writer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+<body class="dark-mode">
+    <div class="container">
+        <div class="toolbar">
+            <label for="image-upload" class="tool-btn" title="Upload Image">
+                <i class="fas fa-image"></i>
+                <input type="file" id="image-upload" accept="image/*" hidden>
+            </label>
+
+            <button class="tool-btn" id="pdf-download" title="Download as PDF">
+                <i class="fas fa-download"></i>
+            </button>
+        </div>
+
+        <div id="editor" class="editor" contenteditable="true" spellcheck="false">
+            <p class="placeholder">Start writing...</p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
